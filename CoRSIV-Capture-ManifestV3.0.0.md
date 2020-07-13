@@ -1,1 +1,74 @@
+# Author: Chathura J. Gunasekara
+# Date: 07/10/2020
+
+# Target definition upload template file.
+#
+# The file must conform to the following format:
+# - File extension must be .txt.
+# - Must contain one row for each target.
+# - Targets may be identified by gene symbol, accession, or chromosomal coordinates, either browser or BED format
+# - Comments may be inserted anywhere in the file.
+
+# Group ID
+GO:0005310
+GO:0016032
+
+# RefSeq 
+SMAD4
+NM_005359
+
+# Ensembl
+SMAD4
+ENST00000342988
+
+# CCDS
+SMAD4
+CCDS11950
+
+# VEGA
+SMAD4
+OTTHUMT00000255993
+
+# GENCODE
+SMAD4
+ENST00000342988
+
+# Example genomic coordinate in browser format
+# - Intervals are one-based, closed.
+# - A target ID may be provided in a second column (tab- or space-delimited).
+# - A multiple-region target may be entered by repeating the target ID
+chr18:48573407-48573675	MyGene1
+chr18:48575046-48575240	MyGene1
+chr18:48575655-48575704	MyGene1
+chr18:48577714-48577795	MyGene1
+chr18:48578995-48579032	MyGene1
+chr18:48581141-48581373	MyGene1
+chr18:48584485-48584624	MyGene1
+chr18:48584700-48584836	MyGene1
+chr18:48586226-48586296	MyGene1
+chr18:48591783-48591986	MyGene1
+chr18:48593379-48593567	MyGene1
+chr18:48602998-48603156	MyGene1
+chr18:48604616-48604847	MyGene1
+
+# Example genomic coordinate in BED format
+# - Intervals are zero-based, half open.
+# - A target ID may be provided in a fourth column (tab- or space-delimited).
+# - A multiple-region target may be entered by repeating the target ID
+chr18	48573406	48573675	MyGene2
+chr18	48575045	48575240	MyGene2
+chr18	48575654	48575704	MyGene2
+chr18	48577713	48577795	MyGene2
+chr18	48578994	48579032	MyGene2
+chr18	48581140	48581373	MyGene2
+chr18	48584484	48584624	MyGene2
+chr18	48584699	48584836	MyGene2
+chr18	48586225	48586296	MyGene2
+chr18	48591782	48591986	MyGene2
+chr18	48593378	48593567	MyGene2
+chr18	48602997	48603156	MyGene2
+chr18	48604615	48604847	MyGene2
+
+# Example cytoband 
+7p22.1
 
